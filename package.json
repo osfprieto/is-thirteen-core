@@ -1,7 +1,7 @@
 {
-    "name": "typescript-template-repo-package",
+    "name": "is-thirteen-core-repo",
     "version": "1.0.0",
-    "description": "TypeScript template repo package",
+    "description": "Bare-bones code for the is-thirteen initiative.",
     "license": "WTFPL",
     "private": true,
     "scripts": {
@@ -15,7 +15,7 @@
         "packages/*"
       ]
     },
-    "repository": "https://github.com/osfprieto/TypeScriptTemplate",
+    "repository": "https://github.com/osfprieto/is-thirteen-core",
     "devDependencies": {
         "lage": "1.9.5"
     },
