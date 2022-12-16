@@ -1,9 +1,9 @@
 {
-    "name": "typescript-template-package",
+    "name": "is-thirteen-core",
     "version": "1.0.0",
-    "description": "TypeScript template package",
+    "description": "Bare-bones code for the is-thirteen initiative",
     "main": "lib/index.js",
-    "repository": "https://github.com/osfprieto/TypeScriptTemplate",
+    "repository": "https://github.com/osfprieto/is-thirteen-core",
     "scripts": {
         "clean": "just-scripts clean",
         "build": "just-scripts build",
