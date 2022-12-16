@@ -1,1 +1,2 @@
-export * from './is-thirteen-core';
+export { THIRTEEN } from './consts';
+export { isThirteen } from './isThirteen';

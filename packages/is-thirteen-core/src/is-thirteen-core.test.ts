@@ -1,9 +1,10 @@
-import { isThirteen } from "./is-thirteen-core";
+import { THIRTEEN } from "./consts";
+import { isThirteen } from "./isThirteen";
 
-test('isThirteen with 13', () => {
-    expect(isThirteen(13)).toBe(true);
+test(`isThirteen with ${THIRTEEN}`, () => {
+    expect(isThirteen(THIRTEEN)).toBe(true);
 });
 
-test('isThirteen with other than 13', () => {
+test(`isThirteen with other than ${THIRTEEN}`, () => {
     expect(isThirteen(12)).toBe(false);
 });
